@@ -1,0 +1,179 @@
+
+body {
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 140%;
+    color: #323235;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    -webkit-text-size-adjust: 100%;
+    box-sizing: border-box;
+}
+
+
+
+/* style.css */
+
+header {
+    margin-top: 100px;
+    background-color: #ffffff;
+    color: #333;
+    text-align: center;
+    padding: 4rem 0; /* Adjusted padding */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  
+  .header-title {
+    font-size: 3rem;
+    margin: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-image: linear-gradient(to left, #000, rgb(146, 145, 145));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-fill-color: transparent; /* Use text-fill-color for browser support */
+  }
+  .header-subtitle {
+    font-size: 1.4rem;
+    color: #666;
+    margin-top: 1rem; /* Adjusted margin */
+  }
+  
+  .header-description {
+    font-size: 1.1rem; /* Adjusted font size */
+    color: #777;
+    margin-top: 1rem;
+  }
+  
+
+  .navbar {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    z-index: 1000;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+.navbar a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #323235;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 15px;
+    transition: background-color 0.3s, color 0.3s;
+    border-bottom: 2px solid transparent;
+}
+
+.navbar a.active {
+    color: #00bcd4; /* Change the text color for the active link */
+    border-color: #00bcd4; /* Change the border color for the active link */
+}
+
+.navbar a:hover {
+    background-color: #f6f6f6;
+    color: #58595b;
+}
+
+/* style.css */
+
+/* style.css */
+
+.project-list {
+    margin-top: 40px;
+  }
+
+  #projects {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 100px;
+}
+
+  
+  .project-items {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap; /* Use wrap to create a new row when items don't fit */
+    gap: 40px;
+  }
+  
+  .project-item {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    display: flex; /* Add flex display to allow side-by-side layout */
+  }
+  
+  .project-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .project-item img {
+    max-width: 700px; /* Adjust image width */
+    height: auto;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px; /* Add border radius to the bottom-left corner */
+  }
+  
+  .project-description {
+    padding: 20px;
+    flex: 1; /* Allow description to take up remaining space */
+  }
+  
+  .project-description h3 {
+    margin: 0;
+    font-size: 1.4rem;
+    color: #333;
+  }
+  
+  .project-description p {
+    margin: 10px 0;
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+
+  .project-item .tech-badge {
+    display: inline-block;
+    padding: 3px 10px;
+    margin-bottom: 10px;
+    background-color: #16c0cc8a; /* Adjust background color */
+    border-radius: 15px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}
+
+/* Add space between badges */
+.project-item .tech-badge:not(:last-child) {
+    margin-right: 5px;
+}
+
+/* Adjust the project description styles */
+.project-description {
+    padding: 20px;
+    flex: 1;
+}
+
+  
