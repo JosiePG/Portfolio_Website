@@ -176,4 +176,77 @@ header {
     flex: 1;
 }
 
+/* Add this CSS code at the end of your existing CSS file */
+
+/* Mobile-first styles */
+/* These styles apply to all screen sizes by default */
+
+/* Header styles */
+header {
+    padding: 2rem 0; /* Reduce padding on small screens */
+}
+
+.header-title {
+    font-size: 2rem; /* Decrease font size on small screens */
+}
+
+/* Navbar styles */
+.navbar {
+    height: 60px; /* Reduce the navbar height on small screens */
+}
+
+.navbar a {
+    font-size: 16px; /* Decrease font size on small screens */
+    padding: 5px 10px; /* Adjust padding on small screens */
+}
+
+/* Project item styles */
+.project-item {
+    flex-direction: column; /* Stack project items on small screens */
+    text-align: center; /* Center align project descriptions on small screens */
+}
+
+.project-item img {
+    max-width: 100%; /* Make images responsive */
+    border-top-left-radius: 0; /* Remove top border radius on small screens */
+    border-bottom-left-radius: 0; /* Remove bottom border radius on small screens */
+}
+
+/* Media queries for larger screens */
+@media screen and (min-width: 768px) {
+    /* Adjust styles for screens wider than 768px */
+    
+    /* Header styles */
+    header {
+        padding: 4rem 0; /* Restore padding on larger screens */
+    }
+
+    .header-title {
+        font-size: 3rem; /* Restore font size on larger screens */
+    }
+
+    /* Navbar styles */
+    .navbar {
+        height: 80px; /* Restore the navbar height on larger screens */
+    }
+
+    .navbar a {
+        font-size: 18px; /* Restore font size on larger screens */
+        padding: 10px 20px; /* Restore padding on larger screens */
+    }
+
+    /* Project item styles */
+    .project-item {
+        flex-direction: row; /* Revert to side-by-side layout on larger screens */
+        text-align: left; /* Restore text alignment on larger screens */
+    }
+
+    .project-item img {
+        max-width: 700px; /* Restore max width on larger screens */
+        border-top-left-radius: 10px; /* Restore border radius on larger screens */
+        border-bottom-left-radius: 10px; /* Restore border radius on larger screens */
+    }
+}
+
+
   
