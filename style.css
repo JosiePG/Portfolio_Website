@@ -207,8 +207,8 @@ header {
 }
 
 .project-item img {
-    width: 600px;          
-    height: 200px;          
+    width: 800px;          
+    height: 400px;          
     object-fit: contain;    
     background-color: #f0f0f0; 
     border: 1px solid #ddd; 
