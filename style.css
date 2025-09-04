@@ -207,9 +207,13 @@ header {
 }
 
 .project-item img {
-    max-width: 100%; /* Make images responsive */
-    border-top-left-radius: 0; /* Remove top border radius on small screens */
-    border-bottom-left-radius: 0; /* Remove bottom border radius on small screens */
+    width: 300px;          
+    height: 200px;          
+    object-fit: contain;    
+    background-color: #f0f0f0; 
+    border: 1px solid #ddd; 
+    padding: 5px;           
+    box-sizing: border-box;
 }
 
 /* Media queries for larger screens */
